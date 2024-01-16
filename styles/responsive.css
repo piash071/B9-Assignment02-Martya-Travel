@@ -39,13 +39,16 @@
 
 
     /* main responsive */
-    .popular-tour-section, .newsletter{
+    .popular-tour-section, .newsletter, .simple-container{
         flex-direction: column;
     }
     .popular-tour-section img{
         width: 100%;
-        height: 85%;
-        
+        height: 85%;  
+    }
+    .simple-container img{
+        width: 100%;
+        height: 85%;  
     }
 
     .destination-title{

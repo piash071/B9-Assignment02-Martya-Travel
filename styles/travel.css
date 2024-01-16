@@ -251,10 +251,32 @@
     line-height: 26px;
     width: 100%;
 }
+
+
+.deals-container{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.simple-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 85px;
+}
+.simple-description{
+    color: #5A5A5D;
+    font-weight: 400;
+}
+.simple-list{
+    color: #131318;
+    font-weight: 700;
+}
+
+
 .newsletter{
     display: flex;
     justify-content: space-between;
-    padding-top: 45px;
+    padding-top: 80px;
 }
 .newsletter-title{
     color: #131318;
