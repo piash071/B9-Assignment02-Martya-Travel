@@ -1,0 +1,116 @@
+/* responsive for mobile */
+@media screen and (max-width:600px) {
+    
+/* header responsive */
+    .menu{
+        display: none;
+     }
+     .hamburger{
+        display: flex;
+        justify-content: center;
+        padding: 19px 15px;
+     }
+
+    .banner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn-banner-section{
+        flex-direction: column;
+        gap: 6px;
+        align-items: center;
+    }
+    .btn-banner, .btn-banner-find{
+        width: 250px;
+    }
+    .banner-title{
+        font-size: 22px;
+        padding-top: 1px;
+        padding: 10px;
+    }
+    .banner-description{
+        text-align: center;
+        font-size: 14px;
+        width: 300px;
+        padding-left: 2px;
+    }
+
+
+    /* main responsive */
+    .popular-tour-section, .newsletter{
+        flex-direction: column;
+    }
+    .popular-tour-section img{
+        width: 100%;
+        height: 85%;
+        
+    }
+
+    .destination-title{
+        text-align: center;
+    }
+    .destination-description{
+        padding-left: 6px;
+    }
+    .destination-img, .destination-img-2, .destination-img-3, .newsletter-img{
+        display: block;
+    }
+    .choose{
+        display: flex;
+        flex-direction: column;
+    }
+    .choose-container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .hotel-description, .service-description, .price{
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .price-description{
+        width: 100%;
+    }
+
+    .newsletter img{
+        width: 100%;
+        height: 85%;
+        padding-top: 40px;
+    }
+    .form{
+        text-align: center;
+    }
+    .subscribe{
+        width: 100%;
+    }
+    .subscribe a{
+        margin-right: auto;
+        padding-left: 10px;
+        width: 30px;
+    }
+
+    .save-up-to{
+        position: none;
+        width:130px;
+        height: 60px;
+        left: 255px;
+    }
+    .footer-description{
+        color: #5A5A5D;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 300;
+        width: 50%;
+    }
+
+}
+
+
+
+@media screen and ((min-width:601px) and (max-width:900px)) {
+    .hamburger{
+        display: none;
+    }
+}
